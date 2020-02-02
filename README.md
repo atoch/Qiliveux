@@ -1,4 +1,4 @@
-# Qiliveux
+# Qilivux
 Lubuntu installation on cheap Qilive Q9 windows 10 tablet
 
 Q9 tablet specs:
@@ -60,3 +60,11 @@ tmpfs              196288          8     196280   1% /run/user/1000
 
 Installation was impossible from the iso burned on the USB key until the tablet was connected to external HDMI monitor. Lubuntu as other distributions I tried would get me only a grey screen probably due to the 800x1200 native resolution of the tablet's screen.
 
+Installation
+Displaylink
+Sound
+Tablet screen
+Kernel
+Netflix
+SDCard
+Power Management
