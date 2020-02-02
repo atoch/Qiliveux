@@ -1,6 +1,6 @@
 Lubuntu is a light distribution based on KDE. This does not means all that you need all what is installed. In my case, I will rely on Cloud for MS Office, GMAIL.
 
-Add source in the package list.
+Add source repo in the package list.
 
 **Be up-to-date**
 * sudo apt-get update
