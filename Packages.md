@@ -19,6 +19,7 @@ Add source repo in the package list.
 But not every thing I need is not here neither. MS Visual Studio Code, Spotify
 
 **Application installed**
+
 #tools
 * sudo apt install curl
 
