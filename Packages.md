@@ -56,3 +56,5 @@ sudo apt install libstdc++6
 
 sudo apt reinstall gcc #not sure why gcc was listed as installed but not found
 
+sudo apt-get build-dep linux-image-$(uname -r)
+apt-get source linux-image-$(uname -r)
