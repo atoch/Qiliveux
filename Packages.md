@@ -16,9 +16,17 @@ sudo apt-get remove 2048-qt
 sudo apt autoremove
 
 
-But not every thing I need is not here neither. MS Visual Studio Code
+But not every thing I need is not here neither. MS Visual Studio Code, Spotify
 
 **Application installed**
+#tools
+sudo apt install curl
+
+#Spotify
+curl -sS https://download.spotify.com/debian/pubkey.gpg | sudo apt-key add -
+echo "deb http://repository.spotify.com stable non-free" | sudo tee /etc/apt/sources.list.d/spotify.list
+sudo apt-get update && sudo apt-get install spotify-client
+
 #for DisplayLink
 sudo apt-get install dkms
 
@@ -35,7 +43,6 @@ sudo apt-get install xserver-xorg-input-all
 
 #for SDCard support
 sudo apt-get install exfat-fuse exfat-utils
-
 
 #for Sound
 sudo apt install pavucontrol
@@ -58,3 +65,8 @@ sudo apt reinstall gcc #not sure why gcc was listed as installed but not found
 
 sudo apt-get build-dep linux-image-$(uname -r)
 apt-get source linux-image-$(uname -r)
+
+**Manual installations from web sites**
+https://code.visualstudio.com/ #Installation via discover
+https://github.com/AdnanHodzic/displaylink-debian
+
