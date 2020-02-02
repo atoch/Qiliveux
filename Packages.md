@@ -4,13 +4,11 @@ Add source in the package list.
 
 **Be up-to-date**
 sudo apt-get update
-
 sudo apt-get upgrade
 
 
 **Applications removed**
-sudo apt-get remove libreoffice-* 
-
+sudo apt-get remove libreoffice-*
 sudo apt-get remove 2048-qt
 
 
