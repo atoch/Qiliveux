@@ -11,7 +11,8 @@ sudo make modules_install -j 12
 
 sudo make install -j 12  
 
-sudo update-grub```  
+sudo update-grub
+``` 
 
 To do: 
 - kernel optimization
