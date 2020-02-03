@@ -66,7 +66,8 @@ Package management
 Displaylink
 Sound
 Tablet screen
-Kernel:https://github.com/atoch/Qiliveux/blob/master/Kernel.md
+Kernel - https://github.com/atoch/Qiliveux/blob/master/Kernel.md
 Netflix
 SDCard
 Power Management
+Error Solving
