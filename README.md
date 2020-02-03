@@ -5,8 +5,8 @@ Q9 tablet specs:
 https://www.auchan.fr/qilive-tablette-tactile-avec-clavier-10-1-w10-866311-noire-32go/p-c915897
 Not too bad for 80 Euro (discounted price for a returned unit).
 
+This tablet is distributed by Auchan in France. It is not clear if Auchan manufacture it or if it is a white chinese brand. What is certain is that there is no support, no web site, customer service when contacted directs you to the shop you purchased the tablet. Too bad.
 
-Installation was impossible from the iso burned on the USB key until the tablet was connected to external HDMI monitor. Lubuntu as other distributions I tried would get me only a grey screen probably due to the 800x1200 native resolution of the tablet's screen.
 
 * Hardware - https://github.com/atoch/Qiliveux/blob/master/Hardware.md
 * Installation - https://github.com/atoch/Qiliveux/blob/master/Installation.md
