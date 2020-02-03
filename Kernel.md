@@ -3,6 +3,11 @@
 Kernel has to be compiled to allow building DisplayLink driver for Ubuntu 20.04
 Lubuntu comes with stock Ubuntu kernel (all Ubuntu variantes do): 5.4.0
 
+`uname -a`
+> Linux qilivux 5.4.0-12-generic #15-Ubuntu SMP Tue Jan 21 15:12:29 UTC 2020 x86_64 x86_64 x86_64 GNU/Linux
+
+
+
 Kernel source contains a lot of files. It is preferable to use an external USB 3 hard drive to avoid filling the internal mmc. As compilation generate object files, for the mmc longevity, it is also better to compile and build the kernel on a fast magnetic disk.
 
 ```
