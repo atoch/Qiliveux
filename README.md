@@ -10,7 +10,7 @@ Installation was impossible from the iso burned on the USB key until the tablet 
 
 * Hardware - https://github.com/atoch/Qiliveux/blob/master/Hardware.md
 * Installation - https://github.com/atoch/Qiliveux/blob/master/Installation.md
-* Package management
+* Package management - https://github.com/atoch/Qiliveux/blob/master/Packages.md
 * Displaylink
 * Sound
 * Tablet screen
