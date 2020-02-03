@@ -18,4 +18,4 @@ Installation was impossible from the iso burned on the USB key until the tablet 
 * Netflix
 * SDCard
 * Power Management
-* Error Solving
+* Error Solving - https://github.com/atoch/Qilivux/blob/master/Error%20Solving.md
