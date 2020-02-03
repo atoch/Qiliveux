@@ -35,6 +35,8 @@ But not every thing I need is not here neither. MS Visual Studio Code, Spotify
 * sudo apt-get install libegl1-mesa
 * sudo apt-get install xserver-xorg-video-all
 * sudo apt-get install xserver-xorg-input-all
+* sudo apt-get install bison
+* sudo apt-get install flex
 
 #for SDCard support
 * sudo apt-get install exfat-fuse exfat-utils
