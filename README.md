@@ -4,6 +4,9 @@ Lubuntu installation on cheap Qilive Q9 windows 10 tablet
 Q9 tablet specs:
 https://www.auchan.fr/qilive-tablette-tactile-avec-clavier-10-1-w10-866311-noire-32go/p-c915897
 Not too bad for 80 Euro (discounted price for a returned unit).
+Intel(R) Atom(TM) x5-Z8350  CPU @ 1.44GHz (family: 0x6, model: 0x4c, stepping: 0x4)
+2 Gb RAM
+32 Gb storage (mmc)
 
 **lspci**
 00:00.0 Host bridge: Intel Corporation Atom/Celeron/Pentium Processor x5-E8000/J3xxx/N3xxx Series SoC Transaction Register (rev 36)
@@ -59,15 +62,52 @@ tmpfs              196288          8     196280   1% /run/user/1000
 /dev/sda2      5860389824 3997452800 1862937024  69% /media/arnaud/Data2                                                                                                  
 /dev/sdd3       502914096    1125996  476171716   1% /kernel     
 
+**BIOS**
+sudo dmidecode -t bios -q
+[sudo] password for arnaud: 
+BIOS Information
+        Vendor: American Megatrends Inc.
+        Version: Qilive12x.WT210P.HvBJREA03
+        Release Date: 10/17/2017
+        Address: 0xF0000
+        Runtime Size: 64 kB
+        ROM Size: 4096 kB
+        Characteristics:
+                PCI is supported
+                BIOS is upgradeable
+                BIOS shadowing is allowed
+                Boot from CD is supported
+                Selectable boot is supported
+                BIOS ROM is socketed
+                EDD is supported
+                5.25"/1.2 MB floppy services are supported (int 13h)
+                3.5"/720 kB floppy services are supported (int 13h)
+                3.5"/2.88 MB floppy services are supported (int 13h)
+                Print screen service is supported (int 5h)
+                Serial services are supported (int 14h)
+                Printer services are supported (int 17h)
+                ACPI is supported
+                USB legacy is supported
+                BIOS boot specification is supported
+                Targeted content distribution is supported
+                UEFI is supported
+        BIOS Revision: 5.11
+
+BIOS Language Information
+        Language Description Format: Long
+        Installable Languages: 1
+                en|US|iso8859-1
+        Currently Installed Language: en|US|iso8859-1
+
 Installation was impossible from the iso burned on the USB key until the tablet was connected to external HDMI monitor. Lubuntu as other distributions I tried would get me only a grey screen probably due to the 800x1200 native resolution of the tablet's screen.
 
-Installation
-Package management
-Displaylink
-Sound
-Tablet screen
-Kernel - https://github.com/atoch/Qiliveux/blob/master/Kernel.md
-Netflix
-SDCard
-Power Management
-Error Solving
+* Installation
+* Package management
+* Displaylink
+* Sound
+* Tablet screen
+* Kernel - https://github.com/atoch/Qiliveux/blob/master/Kernel.md
+* Netflix
+* SDCard
+* Power Management
+* Error Solving
