@@ -22,22 +22,39 @@ sudo update-grub
 
 After the update-grub
 > arnaud@qilivux:/proc$ ls -l /boot
+
 > total 114940
+
 > -rw-r--r-- 1 root root   237699 janv. 21 14:43 config-5.4.0-12-generic
+
 > -rw-r--r-- 1 root root   237688 févr.  3 20:00 **config-5.4.8**
+
 > drwx------ 3 root root     4096 janv.  1  1970 efi
+
 > drwxr-xr-x 5 root root     4096 févr.  1 19:01 grub
+
 > lrwxrwxrwx 1 root root       27 janv. 31 17:44 initrd.img -> initrd.img-5.4.0-12-generic
+
 > -rw------- 1 root root 84075203 févr.  2 18:54 initrd.img-5.4.0-12-generic
+
 > lrwxrwxrwx 1 root root       27 janv. 31 17:44 initrd.img.old -> initrd.img-5.4.0-12-generic
+
 > -rw-r--r-- 1 root root   182704 janv. 28  2016 memtest86+.bin
+
 > -rw-r--r-- 1 root root   184380 janv. 28  2016 memtest86+.elf
+
 > -rw-r--r-- 1 root root   184840 janv. 28  2016 memtest86+_multiboot.bin
+
 > -rw------- 1 root root  4712577 janv. 21 14:43 System.map-5.4.0-12-generic
+
 > -rw-r--r-- 1 root root  4683920 févr.  3 20:00 System.map-5.4.8
+
 > lrwxrwxrwx 1 root root       13 févr.  3 20:00 **vmlinuz -> vmlinuz-5.4.8**
+
 > -r--r--r-- 1 root root 11584248 févr.  1 18:59 vmlinuz-5.4.0-12-generic
+
 > -rw-r--r-- 1 root root 11578240 févr.  3 20:00 vmlinuz-5.4.8
+
 > lrwxrwxrwx 1 root root       24 janv. 31 17:44 vmlinuz.old -> vmlinuz-5.4.0-12-generic
 
 
