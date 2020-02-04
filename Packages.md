@@ -53,6 +53,8 @@ But not every thing I need is not here neither. MS Visual Studio Code, Spotify
 * sudo apt reinstall gcc #not sure why gcc was listed as installed but not found
 * sudo apt-get build-dep linux-image-$(uname -r)
 * apt-get source linux-image-$(uname -r)
+* sudo apt install evdi-dkms
+
 
 **Manual installations from web sites**
 * https://code.visualstudio.com/ #Installation via discover
