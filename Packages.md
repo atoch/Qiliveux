@@ -12,7 +12,7 @@ Add source repo in the package list.
 * sudo apt-get remove 2048-qt
 * sudo apt remove quassel
 * sudo apt remove trojita
-
+* sudo apt autoremove snapd
 
 **Cleaning**
 * sudo apt autoremove
