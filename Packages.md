@@ -10,6 +10,8 @@ Add source repo in the package list.
 **Applications removed**
 * sudo apt-get remove libreoffice-*
 * sudo apt-get remove 2048-qt
+* sudo apt remove quassel
+* sudo apt remove trojita
 
 
 **Cleaning**
