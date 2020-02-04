@@ -63,8 +63,9 @@ After the update-grub
 
 
 To do: 
-*kernel optimization
-*kernel update
+* kernel optimization
+* kernel update
+
 Using Kernel repository with git
 ```
 git init 
