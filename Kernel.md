@@ -18,7 +18,7 @@ make INSTALL_MOD_STRIP=1 -j 4 # to compile using 4 threads on this 4 cpus tablet
 
 sudo make INSTALL_MOD_STRIP=1 modules_install -j 4
 
-sudo make install -j 4
+sudo make INSTALL_MOD_STRIP=1 install -j 4
 
 sudo update-grub
 ``` 
