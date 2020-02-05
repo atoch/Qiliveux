@@ -46,6 +46,10 @@ But not every thing I need is not here neither. MS Visual Studio Code, Spotify
 #for Sound
 * sudo apt install pavucontrol
 
+#for SDCard
+* sudo apt install go-mtpfs
+* sudo apt install mtp-tools
+
 #for Kernel building
 * sudo apt-get install libncurses5 libncurses5-dev
 * sudo apt-get install linux-source build-essential kernel-package libssl-dev xz-utils libssl-dev bc
