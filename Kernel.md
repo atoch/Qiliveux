@@ -14,9 +14,9 @@ Kernel source contains a lot of files. It is preferable to use an external USB 3
 cd /media/arnaud/TEMP/
 tar -xjf /usr/src/linux-source-5.4.0.tar.bz2 
 
-make -j 4 # to compile using 4 threads on this 4 cpus tablet
+make INSTALL_MOD_STRIP=1 -j 4 # to compile using 4 threads on this 4 cpus tablet
 
-sudo make modules_install -j 4
+sudo make INSTALL_MOD_STRIP=1 modules_install -j 4
 
 sudo make install -j 4
 
