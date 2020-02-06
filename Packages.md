@@ -43,6 +43,9 @@ But not every thing I need is not here neither. MS Visual Studio Code, Spotify
 #for SDCard support
 * sudo apt-get install exfat-fuse exfat-utils
 
+#Games
+* sudo apt install mame 
+
 #for Sound
 * sudo apt install pavucontrol
 
