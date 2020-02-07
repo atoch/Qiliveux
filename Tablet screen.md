@@ -23,3 +23,8 @@ Section "Device"
   Option        "TearFree"               "true"
   Option        "DRI"                    "3"
 EndSection
+
+
+* resuming from Suspend leave the screen black
+
+* Power saving option to turn off the screen, leave the screen black when exiting the idle state
